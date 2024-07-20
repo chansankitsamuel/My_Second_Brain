@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "5dd145e06b143d5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "93eea6a4af857c62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75caf166c0485c90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadMe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f73e8b1cc928b634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement_Learning/Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd940994e4297a85",
+    "type": "split",
+    "children": [
+      {
+        "id": "9199640f9c22f5c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "457c8387baaad0b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7bf5ce6dc6c58ebe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0f88f045daa29503",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1c7e9869e8bb9ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "b33e519e5104a97a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f3a9aafe40a1287",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reinforcement_Learning/Fundamentals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32388f8299e0e841",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Reinforcement_Learning/Fundamentals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5d412d2e0cab43a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b0e6ba0d5023e07f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reinforcement_Learning/Fundamentals.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f73e8b1cc928b634",
+  "lastOpenFiles": [
+    "ReadMe.md",
+    "Reinforcement_Learning/Fundamentals.md",
+    "[Reinforcement_Learning/Fundamentals].md",
+    "[Reinforcement_Learning",
+    "[Fundamentals].md",
+    "Reinforcement_Learning",
+    "create a link.md"
+  ]
+}
