@@ -76,5 +76,5 @@
 	- To maximise ***return***, the ***agent*** either controls its ***action*** with *(a.)* an optimal ***policy*** $\pi$, or *(b.)* an ***optimal action-value function*** $Q^{\star}\left(s_{t},a_{t}\right)$
 		- a.) with an optimal ***policy*** $\pi$, the best ***action*** $a_{t}$ in ***state*** $s_{t}$ can be obtained by performing random sampling: $a_{t}\sim\pi\left(a_{t}\left|s_{t}\right.\right)$ 
 			- --> ***agent*** learns by updating its ***policy*** $\pi$ (i.e., ***policy-based learning***)
-		- b.) with an ***optimal action-value function*** $Q^{\star}\left(s_{t},a_{t}\right)$, the best ***action*** $a_{t}$ in ***state*** $s_{t}$ can be obtained by $a_{t}=\operatorname*{argmax}_{a}Q^{\star}\left(s_{t},a_{t}\right)$ 
+		- b.) with an ***optimal action-value function*** $Q^{\star}\left(s_{t},a_{t}\right)$, the best ***action*** $a_{t}$ in ***state*** $s_{t}$ can be obtained by $a_{t}=\arg \max_{a}Q^{\star}\left(s_{t},a_{t}\right)$ 
 			- --> ***agent*** learns by updating its ***value functions*** (i.e., ***value-based learning***)
