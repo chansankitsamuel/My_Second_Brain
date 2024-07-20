@@ -45,9 +45,9 @@
 - ![Return_Figure](./images/Return.png)
 	- ***return*** --> cumulative future ***rewards***
 		- i.e., current reward + future rewards
-	- $U_{t}=R_1+\gamma R_{t+1}+\gamma^2R_{t+2}+\gamma^3R_{t+3}+\cdots+\gamma^{n-1}R_{t+n-1}$
-	- $U_{t}=\sum_{k=0}^{n-1}\gamma^{k}R_{t+k}$
-	- $U_{t}=\sum_{k=0}^{n-1}\gamma^{k}R_{t+k}\left(r_{t+k}\left|s_{t+k+1},s_{t+k},a_{t+k}\right.\right)$
+	- $$U_{t}=R_1+\gamma R_{t+1}+\gamma^2R_{t+2}+\gamma^3R_{t+3}+\cdots+\gamma^{n-1}R_{t+n-1}$$
+	- $$U_{t}=\sum_{k=0}^{n-1}\gamma^{k}R_{t+k}$$
+	- $$U_{t}=\sum_{k=0}^{n-1}\gamma^{k}R_{t+k}\left(r_{t+k}\left|s_{t+k+1},s_{t+k},a_{t+k}\right.\right)$$
 		- $\gamma$ --> discount rate, $\left\lbrace\gamma\,{\vert}\,0<\gamma<1\right\rbrace$
 			- ∵ future rewards are considered less valuable than immediate rewards
 	- ***return*** may have certain degree of randomness (inherited from the randomness of ***reward***)
@@ -55,8 +55,8 @@
 - ### Value Functions
 	- functions modelled by the ***agent*** --> estimate how good it is to perform ***action*** $a$ and/or to be in ***state*** $s$
 	- #### Action-value Function: $Q_{\pi}\left(s_{t},a_{t}\right)$
-		- $Q_{\pi}\left(s_{t},a_{t}\right)=E_{\pi}\left\lbrack U_{t}\left|S_{t}=s_{t},A_{t}=a_{t}\right.\right\rbrack$
-		- $Q_{\pi}\left(s_{t},a_{t}\right)=E_{\pi}\left\lbrack \sum_{k=0}^{n-1}\gamma^{k}R_{t+k}\left|S_{t}=s_{t},A_{t}=a_{t}\right.\right\rbrack$
+		- $$Q_{\pi}\left(s_{t},a_{t}\right)=E_{\pi}\left\lbrack U_{t}\left|S_{t}=s_{t},A_{t}=a_{t}\right.\right\rbrack$$
+		- $$Q_{\pi}\left(s_{t},a_{t}\right)=E_{\pi}\left\lbrack \sum_{k=0}^{n-1}\gamma^{k}R_{t+k}\left|S_{t}=s_{t},A_{t}=a_{t}\right.\right\rbrack$$
 			- --> return expected value of $U_{t}$ given $\pi$, $s_{t}$, $a_{t}$
 				- --> estimate how good it is to perform ***action*** $a_{t}$ given the current ***state*** $s_{t}$ and the current ***policy*** $\pi$
 				- --> inherently assesses the current ***state*** $s_{t}$
