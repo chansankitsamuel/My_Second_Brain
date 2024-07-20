@@ -69,7 +69,7 @@
 	- #### State-value Function: $V_{\pi}\left(s_{t}\right)$
 		- $V_{\pi}\left(s_{t}\right)=E_{A_{t}}\left\lbrack Q_{\pi}\left(s_{t},A_{t}\right)\right\rbrack$
 		- $V_{\pi}\left(s_{t}\right)=\Sigma_{A_{t}}\pi\left(a\left|s_{t}\right.\right)\cdot Q_{\pi}\left(s_{t},a\right)$    {for discrete actions}
-			- instead of requiring both the current ***state*** $s_{t}$ and the current ***action*** $a_{t}$ in the ***action-value function*** $Q_{\pi}\left(s_{t},a_{t}\right)$, $V_{\pi}\left(s_{t}\right)$ only takes in the current ***state*** $s_{t}$ since it uses the expected value of $A_{t}$ (i.e., all possible $a_{t}$ are multiplied with the possibility that they would be performed: $\pi\left(a\left|s\right.\right)$)
+			- instead of requiring both the current ***state*** $s_{t}$ and the current ***action*** $a_{t}$ in the ***action-value function*** $Q_{\pi}\left(s_{t},a_{t}\right)$, $V_{\pi}\left(s_{t}\right)$ only takes in the current ***state*** $s_{t}$ since it uses the expected value of $A_{t}$ (i.e., all possible $a_{t}$ are multiplied with the possibility that they would be performed: $\pi\left(a\left|s\right.\right)$ )
 
 - ## Fundamentals of Reinforcement Learning
 - ![Detailed_Agent_Environment_Interaction_Figure](./images/Detailed_Agent_Environment_Interaction.png)
