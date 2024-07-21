@@ -6,9 +6,9 @@
 			- i.e., $a=a_{t}=a_{t+1}=a_{t+2}=\ldots$
 	- ***rewards*** of ***actions*** are normally distributed
 		- ∴ ***rewards*** of the same ***action*** differs
-		- ∴ ***[[1. Fundamentals#^RewardFunction|Reward Function]]***: $R\left(r_{t}\left|a\right.\right)=\mathbb{P}\left(r_{t}\left|A=a\right.\right)$
+		- ∴ ***[[1_Fundamentals#^RewardFunction|Reward Function]]***: $R\left(r_{t}\left|a\right.\right)=\mathbb{P}\left(r_{t}\left|A=a\right.\right)$
 			- where $r_{t}\sim N\left(\mu_{t},\sigma_{t}\right)$
-	- → ***[[1. Fundamentals#^OptimalAction-valueFunction|Optimal Action-value Function]]***: $Q^{\star}\left(a_{}\right)=𝔼\left(R_{t}\left|A_{t}=a\right.\right)$
+	- → ***[[1_Fundamentals#^OptimalAction-valueFunction|Optimal Action-value Function]]***: $Q^{\star}\left(a_{}\right)=𝔼\left(R_{t}\left|A_{t}=a\right.\right)$
 	- Let the true value of $Q^{\star}\left(a_{}\right)$ be $q^{\star}\left(a_{}\right)$
 	- Let $Q^{\star}_{t}\left(a_{}\right)$ is the estimated value of $q^{\star}\left(a_{}\right)$ at time-step $t$
 	- The aim is to bring $Q^{\star}_{t}\left(a_{}\right)$ to be close to $q^{\star}\left(a_{}\right)$, such that the best ***action*** to be taken can be obtained by $a_{}=\arg\max_{a}q^{\star}\left(a_{}\right)$ ideally
