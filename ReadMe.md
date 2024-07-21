@@ -1,6 +1,8 @@
 
 My second brain...
 
+Display natively on Obsidian
+
 ## Index
 - #### Reinforcement Learning
 	- [1. Fundamentals](./Reinforcement_Learning/1.%20Fundamentals.md)
