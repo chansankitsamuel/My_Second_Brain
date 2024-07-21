@@ -3,5 +3,6 @@ My second brain...
 
 ## Index
 - #### Reinforcement Learning
-	- [Fundamentals](Reinforcement_Learning/Fundamentals.md)
+	- [1. Fundamentals](1.%20Fundamentals.md)
+- #### Evolutionary Algorithm
 	- 
