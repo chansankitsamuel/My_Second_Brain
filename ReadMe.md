@@ -1,7 +1,8 @@
 
 My second brain...
 
-Display natively on Obsidian
+Display natively on Obsidian...
+Sometimes the mathematical formulas cannot be displayed correctly on Github
 
 ## Index
 - #### Reinforcement Learning
